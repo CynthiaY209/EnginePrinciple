@@ -8,7 +8,7 @@
   
  * 可执行文件3个：
  
-  - 布料模拟练习：exe_SpringBone&ClothPractice
+  * 布料模拟练习：exe_SpringBone&ClothPractice
   
   * 碰撞练习：exe_BreakByCollisionPractice
   
