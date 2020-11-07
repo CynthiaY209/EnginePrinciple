@@ -4,7 +4,7 @@
 
 ## 内含文件：
 
-    * Package版本：2019.4.10
+ * Package版本：2019.4.10
   
  * 可执行文件3个：
  
@@ -39,3 +39,13 @@
   * 更换成狮子雕塑模型，使用插件，分别用Voronoi和BSP两种模式生成碎块
   
   * 按R重新加载场景
+
++ Who
+    + cares
++ my
++ order
+    + out
+    + of
+        + its
+        + own
+            + ORDER
