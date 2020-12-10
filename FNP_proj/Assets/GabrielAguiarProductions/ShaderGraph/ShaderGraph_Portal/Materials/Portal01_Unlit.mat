@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Portal01_Unlit
+  m_Shader: {fileID: 4800000, guid: 4f0bf9382ca0ef847b31e0e2092eee09, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_9E431F21:
+        m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F3322461:
+        m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_12A7A5F4: 25
+    - Vector1_472CE3B7: 1.5
+    - Vector1_508671E2: 0.5
+    - Vector1_9E175D29: 1.5
+    - Vector1_CFA7FC59: 2
+    - Vector1_D4879182: 0.5
+    - Vector1_D941DB6C: 25
+    - Vector1_E2C6ABAF: 2
+    m_Colors:
+    - Color_F41EDFEA: {r: 4, g: 0.8941177, b: 3.168628, a: 0}
+    - Color_F5A7AE10: {r: 15.999998, g: 3.602094, b: 12.732984, a: 0}
