@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1410332776	Stop_ShortGun			\Default Work Unit\Stop_ShortGun	
+	3420320478	Play_ShortGun			\Default Work Unit\Play_ShortGun	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	502325907	Gun00	E:\Scenes\AssignTest\.cache\Windows\SFX\Gun00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ShortGun\Gun00		104228
+	561533926	Gun02	E:\Scenes\AssignTest\.cache\Windows\SFX\Gun02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ShortGun\Gun02		114158
+	588253294	Gun01	E:\Scenes\AssignTest\.cache\Windows\SFX\Gun01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ShortGun\Gun01		87072
+

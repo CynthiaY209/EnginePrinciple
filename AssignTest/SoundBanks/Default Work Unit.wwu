@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ED7C88FD-AF19-40E6-905F-B7BDE4639168}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{ED7C88FD-AF19-40E6-905F-B7BDE4639168}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundBank_2D" ID="{01872D24-8FF7-4E05-93FC-89232F447AF6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Random_UI_Click" ID="{5FB53703-A345-41C1-A452-6FB622642805}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Basic_UI_Click" ID="{26EA7AA9-6B77-42EC-BF80-DDC47CC3E9BB}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Sequence_UI_Click" ID="{FFCFD480-F73C-4460-9C7C-AD140401AA6D}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Random_UI_Click" ID="{5FB5AE7A-E638-45AD-9BE8-ECE590E217BA}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Basic_UI_Click" ID="{DEAC1198-99B9-4914-98EB-ACBAE11217B6}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Blend_UI_Click" ID="{CA883CE4-CD54-4BE4-A9AC-F674D0428AA3}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Sequence_UI_Click" ID="{CC724B23-F859-4F4E-9FB2-AB8A96D2A258}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Blend_UI_Click" ID="{4D0A9FB9-A70A-4F93-B3F4-A2529ED57D1D}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Character" ID="{F7C452B8-EDA7-472F-983E-BF00A67001B3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ShortGun" ID="{B7732A83-7ACB-415B-A731-BF76DA054DA1}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_ShortGun" ID="{0A8BE44C-0B4A-489E-8E2C-CC9B40E27724}" WorkUnitID="{024FCC28-52F3-4E20-B683-C99507A16519}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

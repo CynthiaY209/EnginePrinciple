@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{024FCC28-52F3-4E20-B683-C99507A16519}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{024FCC28-52F3-4E20-B683-C99507A16519}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Basic_UI_Click" ID="{26EA7AA9-6B77-42EC-BF80-DDC47CC3E9BB}">
+					<ChildrenList>
+						<Action Name="" ID="{592FB725-7F0A-43BF-829B-B88BD427F5F3}" ShortID="910410997">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BasicMarioJump" ID="{C58A4740-2B2A-4D67-81EB-777CCF5E9FAC}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Blend_UI_Click" ID="{4D0A9FB9-A70A-4F93-B3F4-A2529ED57D1D}">
+					<ChildrenList>
+						<Action Name="" ID="{12684334-C0AA-4973-BDF6-AA3BFBBA7598}" ShortID="150783314">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{92AA7B6D-B32D-4EC1-96DE-AC62A1D4DB77}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Basic_UI_Click" ID="{DEAC1198-99B9-4914-98EB-ACBAE11217B6}">
+					<ChildrenList>
+						<Action Name="" ID="{19A4F4DC-74D9-4719-92B8-D3F944F4310B}" ShortID="486669703">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BasicMarioJump" ID="{C58A4740-2B2A-4D67-81EB-777CCF5E9FAC}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Blend_UI_Click" ID="{CA883CE4-CD54-4BE4-A9AC-F674D0428AA3}">
+					<ChildrenList>
+						<Action Name="" ID="{71EB6BF1-10B3-4A07-A655-E45BF5949921}" ShortID="523837715">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{92AA7B6D-B32D-4EC1-96DE-AC62A1D4DB77}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Random_UI_Click" ID="{5FB5AE7A-E638-45AD-9BE8-ECE590E217BA}">
+					<ChildrenList>
+						<Action Name="" ID="{6F4D1F0F-F786-4C7C-81B0-2F140E4673B4}" ShortID="613047066">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{EE7E14DE-6346-4B6E-9752-F0906E5588D2}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Random_UI_Click" ID="{5FB53703-A345-41C1-A452-6FB622642805}">
+					<ChildrenList>
+						<Action Name="" ID="{843ADA77-2A86-4388-97C3-3D9E7AA9BB89}" ShortID="534892030">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{EE7E14DE-6346-4B6E-9752-F0906E5588D2}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sequence_UI_Click" ID="{CC724B23-F859-4F4E-9FB2-AB8A96D2A258}">
+					<ChildrenList>
+						<Action Name="" ID="{9590CC1A-0CB7-43DC-A8FD-07D826CEE06B}" ShortID="1045812473">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voice" ID="{8D069032-AF5B-4FE6-8A67-9BA45286058E}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Sequence_UI_Click" ID="{FFCFD480-F73C-4460-9C7C-AD140401AA6D}">
+					<ChildrenList>
+						<Action Name="" ID="{E11DB153-9E84-4888-B5FA-8D3FB5F61547}" ShortID="826364026">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voice" ID="{8D069032-AF5B-4FE6-8A67-9BA45286058E}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ShortGun" ID="{B7732A83-7ACB-415B-A731-BF76DA054DA1}">
+					<ChildrenList>
+						<Action Name="" ID="{025A5D1C-703B-4DDF-A371-0AAEE8A0B0CF}" ShortID="754190283">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShortGun" ID="{09C2BC50-D2B0-4057-8EE0-D4A8E0C114CA}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ShortGun" ID="{0A8BE44C-0B4A-489E-8E2C-CC9B40E27724}">
+					<ChildrenList>
+						<Action Name="" ID="{FB96331B-7B78-4FF8-9D1F-A91AA471DBD9}" ShortID="27739213">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShortGun" ID="{09C2BC50-D2B0-4057-8EE0-D4A8E0C114CA}" WorkUnitID="{D6F75A1F-0A7D-451A-B2F5-1431AD659AE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

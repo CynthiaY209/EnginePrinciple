@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	525802497	Play_Random_UI_Click			\Default Work Unit\Play_Random_UI_Click	
+	1160515557	Stop_Sequence_UI_Click			\Default Work Unit\Stop_Sequence_UI_Click	
+	1953626725	Play_Blend_UI_Click			\Default Work Unit\Play_Blend_UI_Click	
+	2076479038	Stop_Basic_UI_Click			\Default Work Unit\Stop_Basic_UI_Click	
+	3676077147	Play_Sequence_UI_Click			\Default Work Unit\Play_Sequence_UI_Click	
+	3725628195	Stop_Random_UI_Click			\Default Work Unit\Stop_Random_UI_Click	
+	3860502008	Play_Basic_UI_Click			\Default Work Unit\Play_Basic_UI_Click	
+	3864052583	Stop_Blend_UI_Click			\Default Work Unit\Stop_Blend_UI_Click	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4206605382	DayTime			\Default Work Unit\DayTime	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2728406	BasicMarioJump	E:\Scenes\AssignTest\.cache\Windows\SFX\	123421313	footstep0	E:\Scenes\AssignTest\.cache\Windows\SFX\footstep0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footstep0		138044
+	209944601	AngryPikachu	E:\Scenes\AssignTest\.cache\Windows\SFX\AngryPikachu_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AngryPikachu		61608
+	236467450	VictoryPikachu	E:\Scenes\AssignTest\.cache\Windows\SFX\VictoryPikachu_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\VictoryPikachu		89828
+	370568866	footstep1	E:\Scenes\AssignTest\.cache\Windows\SFX\footstep1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footstep1		124596
+	780525193	footstep3	E:\Scenes\AssignTest\.cache\Windows\SFX\footstep3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footstep3		125172
+	908035777	footstep2	E:\Scenes\AssignTest\.cache\Windows\SFX\footstep2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footstep2		129852
+	973206136	ElectricityAttack	E:\Scenes\AssignTest\.cache\Windows\SFX\ElectricityAttack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\ElectricityAttack		258112
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	69119851	ForestNight	E:\Scenes\AssignTest\.cache\Windows\SFX\ForestNight_D79FB2B7.wem	69119851.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ForestNight	
+	897497397	ForestMorning	E:\Scenes\AssignTest\.cache\Windows\SFX\ForestMorning_D79FB2B7.wem	897497397.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ForestMorning	
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B4FD3D46-5261-40CA-ABBA-6BA36DD0BB94}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{B4FD3D46-5261-40CA-ABBA-6BA36DD0BB94}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="DayTime" ID="{628CD18C-6A95-455B-9B36-37423F843C3E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="55"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SoundVolumeCtrl" ID="{E399A438-65FF-4960-A734-EC153EB56B7C}"/>
+				<GameParameter Name="VoiceVolumeCtrl" ID="{791F544D-1103-43D9-B425-C0B3D77F1D1C}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="80"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SFXVolumeCtrl" ID="{570FE28C-B6E3-4163-90D0-6D1D0BA48D79}"/>
+				<GameParameter Name="Character_SideChain" ID="{DB5DA750-F5D0-4892-98B6-6FE5D3A98F1C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-60"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

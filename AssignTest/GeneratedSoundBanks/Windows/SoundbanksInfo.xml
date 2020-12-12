@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>E:\Scenes\AssignTest\</ProjectRoot>
+		<SourceFilesRoot>E:\Scenes\AssignTest\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Scenes\AssignTest\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Scenes\AssignTest\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="69119851" Language="SFX">
+			<ShortName>ForestNight.wav</ShortName>
+			<Path>SFX\ForestNight_D79FB2B7.wem</Path>
+		</File>
+		<File Id="897497397" Language="SFX">
+			<ShortName>ForestMorning.wav</ShortName>
+			<Path>SFX\ForestMorning_D79FB2B7.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="436743010" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
+			<ShortName>Character</ShortName>
+			<Path>Character.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3420320478" Name="Play_ShortGun" ObjectPath="\Events\Default Work Unit\Play_ShortGun" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="1410332776" Name="Stop_ShortGun" ObjectPath="\Events\Default Work Unit\Stop_ShortGun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="502325907" Language="SFX">
+					<ShortName>Gun00.wav</ShortName>
+					<Path>SFX\Gun00_10C4C929.wem</Path>
+				</File>
+				<File Id="561533926" Language="SFX">
+					<ShortName>Gun02.wav</ShortName>
+					<Path>SFX\Gun02_10C4C929.wem</Path>
+				</File>
+				<File Id="588253294" Language="SFX">
+					<ShortName>Gun01.wav</ShortName>
+					<Path>SFX\Gun01_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3234505753" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank_2D</ObjectPath>
+			<ShortName>SoundBank_2D</ShortName>
+			<Path>SoundBank_2D.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3860502008" Name="Play_Basic_UI_Click" ObjectPath="\Events\Default Work Unit\Play_Basic_UI_Click" DurationType="OneShot" DurationMin="1.814059" DurationMax="1.814059"/>
+				<Event Id="1953626725" Name="Play_Blend_UI_Click" ObjectPath="\Events\Default Work Unit\Play_Blend_UI_Click" DurationType="Infinite"/>
+				<Event Id="525802497" Name="Play_Random_UI_Click" ObjectPath="\Events\Default Work Unit\Play_Random_UI_Click" DurationType="OneShot" DurationMin="0.560324" DurationMax="0.985510"/>
+				<Event Id="3676077147" Name="Play_Sequence_UI_Click" ObjectPath="\Events\Default Work Unit\Play_Sequence_UI_Click" DurationType="OneShot" DurationMin="0.961625" DurationMax="2.015622"/>
+				<Event Id="2076479038" Name="Stop_Basic_UI_Click" ObjectPath="\Events\Default Work Unit\Stop_Basic_UI_Click" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3864052583" Name="Stop_Blend_UI_Click" ObjectPath="\Events\Default Work Unit\Stop_Blend_UI_Click" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3725628195" Name="Stop_Random_UI_Click" ObjectPath="\Events\Default Work Unit\Stop_Random_UI_Click" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1160515557" Name="Stop_Sequence_UI_Click" ObjectPath="\Events\Default Work Unit\Stop_Sequence_UI_Click" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="69119851"/>
+				<File Id="897497397"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="2728406" Language="SFX">
+					<ShortName>基础-马里奥跳跃.wav</ShortName>
+					<Path>SFX\基础-马里奥跳跃_10C4C929.wem</Path>
+				</File>
+				<File Id="123421313" Language="SFX">
+					<ShortName>footstep0.wav</ShortName>
+					<Path>SFX\footstep0_10C4C929.wem</Path>
+				</File>
+				<File Id="209944601" Language="SFX">
+					<ShortName>AngryPikachu.wav</ShortName>
+					<Path>SFX\AngryPikachu_10C4C929.wem</Path>
+				</File>
+				<File Id="236467450" Language="SFX">
+					<ShortName>VictoryPikachu.wav</ShortName>
+					<Path>SFX\VictoryPikachu_10C4C929.wem</Path>
+				</File>
+				<File Id="370568866" Language="SFX">
+					<ShortName>footstep1.wav</ShortName>
+					<Path>SFX\footstep1_10C4C929.wem</Path>
+				</File>
+				<File Id="780525193" Language="SFX">
+					<ShortName>footstep3.wav</ShortName>
+					<Path>SFX\footstep3_10C4C929.wem</Path>
+				</File>
+				<File Id="908035777" Language="SFX">
+					<ShortName>footstep2.wav</ShortName>
+					<Path>SFX\footstep2_10C4C929.wem</Path>
+				</File>
+				<File Id="973206136" Language="SFX">
+					<ShortName>ElectricityAttack.wav</ShortName>
+					<Path>SFX\ElectricityAttack_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

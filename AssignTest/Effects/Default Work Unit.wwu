@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3785B66E-E394-4F01-8194-324F62AC6946}" SchemaVersion="94">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{3785B66E-E394-4F01-8194-324F62AC6946}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Meter" ID="{B6E87121-B685-45EE-B459-5187818DADD0}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.05"/>
+						<Property Name="Min" Type="Real32" Value="-60"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="1.2"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>
